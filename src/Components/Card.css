@@ -1,0 +1,47 @@
+/* Card.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 240px;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card-content {
+    margin-top: 1rem;
+}
+
+.card-content h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+
+
+.card:hover{
+    box-shadow: 5px 0px 5px 5px rgba(104, 84, 84, 0.786);
+    background-color: #dbdada;
+    border: 2px solid rgba(255, 255, 255, 0.785);
+}

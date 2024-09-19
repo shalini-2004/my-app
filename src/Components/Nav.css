@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    border: 1px solid black;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(193, 125, 37);
+    background-color: rgb(26, 43, 87);
+    color: antiquewhite;
+}
+.app{
+    /* border: 1px solid pink; */
+    padding-left: 10%;
+    font-size: 2rem;
+    flex: 1;
+}
+.list{
+    /* border: 1px solid blue; */
+    display: flex;
+    /* gap: 1rem; */
+    justify-content: space-around ;
+    width: 20%;
+
+    /* padding-left: 2rem;
+    padding-right:2rem; */
+    list-style-type: none;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.about:hover{
+    color: rgb(32, 162, 255);
+    font-size: 1.2rem;
+}
